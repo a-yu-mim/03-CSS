@@ -1,0 +1,57 @@
+
+/*--|-----------------------|---
+    |    binário é base 2   |
+    |    octal é base 8     |
+    | hexadecimal é base 16 |
+  --|-----------------------|---*/
+
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: green;
+    color: blueviolet;
+}
+
+.cabecalho {
+    background-color: #3098AF; 
+    text-align: center;
+}
+
+.cabecalho p:first-child{
+/*pegue o prmeiro <p> dentro de .cabecalho (Título)*/ 
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.cabecalho p:last-child{ 
+/*pegue o último <p> dentro de .cabecalho (Subtítulo)*/ 
+    color: #FFFFFF;
+}
+
+.conteudo {
+    background-color: rgb(0, 0, 0);
+    color: yellow;
+}
+
+/* Desafio */
+.conteudo p{
+    color: #E4005A;
+    font-size: 42px;
+}
+
+/* Desafio Plus 
+   pegue o terceiro parágrafo dentro da div .conteudo*/
+.conteudo p:nth-of-type(3){
+    color: purple;
+    font-size: small;
+    vertical-align: sub;
+}
+
+/* Desafio Plus 2 
+aplicando estilo quando a largura for 480px ou menor*/
+@media (max-width:480px) {
+    .container {
+        background-color: #ADD8E6;
+    }
+}

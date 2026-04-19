@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AquaTech | Login</title>
+ <style>
+    body{
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f6f8;
+    }
+
+    .container{
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .header{
+      background-color: #001f3c;
+      color: white;
+    }
+
+    .header .container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 0;
+    }
+
+    .navbar{
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .navbar a{
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .navbar a:hover{
+      color: #00b4d8;
+    }
+
+    .titulo{
+      font-size: 26px;
+    }
+
+    .login{
+      display: flex;
+      align-items: center;
+      height: 80vh;
+    }
+
+    .login .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    
+    .card{
+      background-color: white;
+      width: 380px;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .card h2{
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .campo{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 12px;
+      font-weight: bold;
+    }
+
+    .campo input{
+      margin-top: 5px;
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+    .botao{
+      background-color: #00b4d8;
+      color: white;
+      padding: 12px;
+      width: 100%;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .botao:hover{
+      background-color: #0096c7;
+    }
+
+    .footer{
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      color: #555;
+    }
+ </style>
+</head>
+
+<body>
+
+    <!--Header-->
+
+    <div class="header">
+        <div class="container">
+            <h1 class="titulo">AquaTech</h1>
+            <ul class="navbar">
+                <li>
+                    <a href="index.html">Inicial</a>
+                </li>
+                <li>
+                    <a href="simulador.html">Simulador</a>
+                </li>
+                <li>|</li>
+                <li class="agora">
+                    <a href="#">Login</a>
+                </li>
+                <li>
+                    <a href="cadastro.html">Cadastro</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="login">
+  
+        <div class="container">
+            <div class="card card-login">
+                <h2>Olá de volta!</h2>
+                <div class="formulario">
+                    <div class="campo">
+                        <span>E-mail:</span>
+                        <input id="email_input" type="text" placeholder="Login">
+                    </div>
+                    <div class="campo">
+                        <span>Senha:</span>
+                        <input id="senha_input" type="password" placeholder="******">
+                    </div>
+                    <button class="botao">Entrar</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--footer inicio-->
+    <div class="footer">
+        <div class="container">
+            <h4>Feito com amor por aluno &hearts; SPTech &copy; 2024</h4>
+            <span class="version">v1.0.0</span>
+        </div>
+    </div>
+    <!--footer fim-->
+
+</body>
+
+</html>

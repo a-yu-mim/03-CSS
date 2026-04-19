@@ -1,0 +1,54 @@
+
+/* --|--------------------------------|---------------------------------------------------------------|--
+     | `align-items`                  | Decide se as bolas ficam em cima, no meio ou embaixo da caixa |                          
+     | `display: flex`                | Ativa o Flexbox e permite alinhar, espaçar, ...               |
+     | `justify-content`              | Decide onde na linha as bolas ficam na linha e espaçamento    |
+     | `justify-content: flex-start`  | Começo da linha                                               |
+     | `flex-direction`               | Define a direção da sequência das bolinhas                    | 
+     | `flex-direction: rom`          | Esquerda para direita                                         | 
+   --|--------------------------------|---------------------------------------------------------------|-- */
+   
+.pai {
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    background-color: antiquewhite;
+    border: solid 2px #eb7272;
+
+    align-items: flex-start; 
+ /* display: flex; 
+    justify-content: flex-start; 
+    flex-direction: row; */
+}
+
+.area{
+    width:40%; /*largura*/
+    height:100%; /*altura*/
+    display:flex; 
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.filho {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.cor1 {
+    background-color: #ED145B;
+    order: 1;
+}
+
+.cor2 {
+    background-color: #63B1BC;
+    order: 3;
+    align-self: flex-end;
+}
+
+.cor3 {
+    background-color: #EFB661;
+    order: 2;
+    align-self: center;
+}

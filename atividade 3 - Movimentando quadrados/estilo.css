@@ -1,0 +1,77 @@
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.base {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+}
+
+.box1 {
+    background-color: #63b1bc;
+}
+.box2 {
+    background-color: #1f2a44;
+}
+.box3 {
+    background-color: #ed145b;
+}
+.box4 {
+    background-color: #efb661;
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+
+/* Item a) 
+ - "display: flex" ativa o Flexbox 
+ - um sistema do CSS 
+ - que permite organizar elementos de forma flexível
+ - dentro de um container como alinhar, espaçamento,...*/
+.container1 {
+    display: flex; 
+    justify-content: flex-start;
+}
+.container2 {
+    display: flex;
+    justify-content: flex-end;
+}
+.container3 {
+   display: flex;
+justify-content: center;
+}
+.container4 {
+    display: flex;
+    justify-content: space-between;
+}
+.container5 {
+    display: flex;
+    justify-content: space-around;
+}
+.container6 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Item b)
+- testado no .container1*/
+.container-exercícioB{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* Item Desafio
+- testado no .container1*/
+.container-desafio {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}

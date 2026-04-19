@@ -1,0 +1,16 @@
+
+/* Defini título vermelho e depois azul, 
+ele vai ficar azul no final, e o corpo como preto */
+
+    h1{
+    color: rgb(255, 0, 0);
+    }
+
+    h1{
+    color: blue;
+    }
+
+    body {
+  background-color: rgb(0, 0, 0);
+    } 
+  
