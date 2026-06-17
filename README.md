@@ -1,4 +1,4 @@
-# CSS Activities / Atividades de CSS
+# CSS Activities ( Atividades de CSS )
 
 This repository contains initial CSS practice exercises developed during the learning process of web styling and layout techniques.
 
